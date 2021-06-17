@@ -1,0 +1,61 @@
+.bg1 {
+    width: 100%;
+    min-height: 430px;
+    position: relative;
+}
+
+.bg1>img {
+    width: 100%;
+}
+
+.bg1>.content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bg1>.content>.word {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg1>.content>.word>.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.bg1>.content>.word>.title>.title1 {
+    color: #b18662;
+    font-size: 40px;
+}
+
+.bg1>.content>.word>.title>.title2 {
+    color: #b18662;
+    font-size: 30px;
+}
+
+.bg1>.content>.word>.title>img {
+    margin: 15px 0 20px;
+    height: 35px;
+}
+
+.bg1>.content>.word>.intr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg1>.content>.word>.intr>span {
+    font-size: 18px;
+    line-height: 36px;
+    color: #fff;
+}

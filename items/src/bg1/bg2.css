@@ -1,0 +1,47 @@
+.bg2 {
+    width: 100%;
+    min-height: 275px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.bg2>img {
+    width: 100%;
+}
+
+.bg2>.content {
+    top: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.bg2>.content>.logo1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bg2>.content>.logo1>img {
+    height: 55px;
+}
+
+.bg2>.content>.logo1>.wish {
+    font-size: 30px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.bg2>.content>.logo1>.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg2>.content>.logo1>.text>span {
+    color: #fff;
+    font-size: 18px;
+    line-height: 36px;
+}

@@ -1,0 +1,65 @@
+.content {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    width: 1200px;
+    padding: 0 40px;
+    height: 100%;
+    clear: both;
+}
+
+.content>.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    left: 10%;
+}
+
+.content>.left>.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.content>.left>.ewm {
+    display: flex;
+    flex-direction: column;
+}
+
+.content>.left>.ewm>img {
+    width: 110px;
+    height: 110px;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.content>.left>.ewm>span {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.content>.left>.ewm>span.phoneApp {
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.content>.left>.logo>img:first-child {
+    width: 200px;
+    height: 65px;
+}
+
+.content>.left>.logo>img:last-child {
+    width: 365px;
+    height: 36px;
+}
+
+.content>.phone {
+    position: absolute;
+    right: 0;
+    bottom: -220px;
+}
+
+.content>.phone>img {
+    width: 325px;
+    height: 650px;
+}

@@ -1,0 +1,72 @@
+.mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mask>.modal {
+    width: 50%;
+    height: 60%;
+    display: flex;
+}
+
+.mask>.modal>.con {
+    height: 100%;
+    background-color: #fff;
+    padding: 10px 0 30px;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 99;
+    flex: 1;
+}
+
+.mask>.modal>.img {
+    background-color: #be865d;
+    height: 55px;
+    width: 55px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mask>.modal>.img>img {
+    width: 50%;
+    height: 50%;
+}
+
+.mask>.modal>.con>.bodycontent {
+    overflow: hidden;
+    height: 100%;
+}
+
+.mask>.modal>.con>.bodycontent>.title {
+    padding: 20px 40px;
+    overflow: hidden;
+    color: #be865d;
+    font-size: 28px;
+    text-align: center;
+    word-wrap: none;
+    border-bottom: 1px solid #9b9b9b;
+}
+
+.mask>.modal>.con>.bodycontent>.contents {
+    height: 78%;
+    margin: 30px 40px 40px;
+    overflow-y: scroll;
+    font-size: 14px;
+    line-height: 21px;
+    scrollbar-width: none;
+    -webkit-scrollbar-width: none;
+}
+
+.mask>.modal>.con>.bodycontent>.contents::-webkit-scrollbar {
+    width: 0;
+}
